@@ -52,7 +52,7 @@ function loadData() {
 
     // Wikipedia API call
     $.ajax({
-        url: "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=einstein&format=json",
+        url: "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=nargarjuna&format=json",
         method: "GET",
         dataType: "JSONP"
     }).done(function(result) {
